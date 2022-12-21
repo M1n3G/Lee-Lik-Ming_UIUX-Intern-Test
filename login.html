@@ -1,0 +1,131 @@
+<html>
+<meta charset="UTF-8" />
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+<link rel="stylesheet" href="login.css" />"
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center h-100">
+            <div class="col-xl-10">
+                <div class="card rounded-3">
+                    <div class="row">
+                        <!-- LEFT SECTION-->
+                        <div class="col-lg-6">
+                            <div class="card-body p-md-5">
+
+                                <!-- TITLE -->
+                                <div class="text-left">
+                                    <h2>Log in</h2>
+                                    <span class="mb-4" style="color:grey">Welcome back! Please enter your
+                                        details.</span>
+                                </div>
+
+                                <!-- CONTENT -->
+                                <form id="login">
+                                    <div class="form-outline mt-4 mb-4">
+                                        <label class="form-label fw-semibold" for="email">Email</label>
+                                        <input type="email" name="email" class="form-control"
+                                            placeholder="Enter your email" />
+                                    </div>
+
+                                    <div class="form-outline mt-4 mb-4">
+                                        <label class="form-label fw-semibold" for="password">Password</label>
+                                        <input type="password" name="password" class="form-control"
+                                            placeholder="*******" />
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-7">
+                                            <input type="checkbox" id="remember" />&nbsp <span
+                                                style="font-size: 15px;">Remember for 30 Days</span>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <p class="fw-semibold" style="color:#363cc0; font-size: 15px;">Forgot
+                                                Password</p>
+                                        </div>
+                                    </div>
+
+                                    <button class="btn btn-primary form-control mt-4" type="button">Sign in</button>
+                                    <button class="btn btn-outline-dark form-control mt-4" type="button">
+                                        <i class="fab fa-google fa-1x"></i> Sign in with Google
+                                    </button>
+
+                                    <div class="register mt-5 text-center">
+                                        <p class="mb-0 text-black">Dont have an account?
+                                            <a href="register.html" class="text-black-50 fw-bold"
+                                                style="color:#363cc0;">Sign Up</a>
+                                        </p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- RIGHT SECTION -->
+                        <div class="col-lg-6 d-flex align-items-center rounded-end" style="background-color: #363cc0;">
+
+                            <div id="carousel" class="carousel slide" data-bs-ride="false">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                </div>
+
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="1.svg" class="slider-img d-block text-center" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Welcome to your new dashboard</h5>
+                                            <p>Sign in to explore changes we've made</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="2.svg" class="slider-img d-block text-center" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Easy, Quick, Safe</h5>
+                                            <p>Sign in to manage your company</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="3.svg" class="slider-img d-block text-center" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Fully Automated system </h5>
+                                            <p>Sign in to explore more about fully Automated</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- BUTTON -->
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
